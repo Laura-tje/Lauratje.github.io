@@ -6,7 +6,7 @@ export default function App() {
   return (
     <div className="min-h-screen flex flex-col bg-(--bg) text-(--text)">
       <Header />
-      <header >
+      <header className="bg-(--surface)">
       </header>
 
       <Outlet />
