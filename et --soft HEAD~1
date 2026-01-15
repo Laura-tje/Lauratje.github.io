@@ -1,0 +1,59 @@
+[33mcommit 2e067461e1277a14806cddd16b6bc4918b98576c[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Laura Delissen <lauradelissen@hotmail.com>
+Date:   Thu Jan 15 17:26:30 2026 +0100
+
+    mp4 added to gitignore
+
+[33mcommit 6d003ed60b550401d4ca8988ca02326ca5afb4a8[m
+Author: Laura Delissen <lauradelissen@hotmail.com>
+Date:   Thu Jan 15 17:18:27 2026 +0100
+
+    Youtube video fix
+
+[33mcommit 53520b9b4ec505663f612b3affb08eaa9ddc600f[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: Laura Delissen <lauradelissen@hotmail.com>
+Date:   Thu Jan 15 15:35:45 2026 +0100
+
+    Fix images hopefully
+
+[33mcommit 13a1b3364d13b6c5c3da09ae168acfd93171de0d[m
+Author: Laura Delissen <lauradelissen@hotmail.com>
+Date:   Thu Jan 15 14:13:29 2026 +0100
+
+    Project details invullen
+
+[33mcommit f2cbef13cd8a71cba376d1e2b5945a8fcf692758[m
+Author: Laura Delissen <lauradelissen@hotmail.com>
+Date:   Thu Jan 15 10:41:44 2026 +0100
+
+    Project details pagina met subcomponenten
+
+[33mcommit 80c80fe21840177794d01c2d881dfe793c9594b9[m
+Author: Laura Delissen <lauradelissen@hotmail.com>
+Date:   Thu Jan 8 10:17:12 2026 +0100
+
+    Home pagina met hero en project grid
+
+[33mcommit 5871e58716d1fd8b0145d8c212cda5746c9bfea7[m
+Author: Laura Delissen <lauradelissen@hotmail.com>
+Date:   Thu Dec 18 11:17:09 2025 +0100
+
+    deploy fix
+
+[33mcommit 885339ec85a6d235985408764f79cdefa8b22f08[m
+Author: Laura Delissen <lauradelissen@hotmail.com>
+Date:   Thu Dec 18 10:30:28 2025 +0100
+
+    Navigatie en layout toegevoegd
+
+[33mcommit 2e2549d927769f96edd4676b4776712ecfd13c33[m
+Author: Laura Delissen <lauradelissen@hotmail.com>
+Date:   Thu Dec 18 09:30:47 2025 +0100
+
+    GitHub Pages deployment setup
+
+[33mcommit defe2cf7e4d8edaf0648df3f55250bab8e74c031[m
+Author: Laura Delissen <lauradelissen@hotmail.com>
+Date:   Thu Dec 18 09:18:59 2025 +0100
+
+    Ontwikkelomgeving opgezet
