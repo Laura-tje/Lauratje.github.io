@@ -8,8 +8,7 @@ export default function ProjectCard({ project }) {
 
       {/* Thumbnail met overlay */}
       <div className="relative aspect-video overflow-hidden">
-        <img src={project.thumbnail} alt={project.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
-
+        <img src={`${import.meta.env.BASE_URL}${project.thumbnail}`} alt={project.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"/>
         {/* Hover overlay */}
         <div className="absolute inset-0 bg-(--overlay) opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
           <span className="text-(--text) font-semibold">Bekijk Project →</span>

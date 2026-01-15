@@ -3,7 +3,7 @@ export default function ProjectHeader({ project }) {
     <div className="relative w-full mb-4 overflow-hidden">
       {/* Banner Image */}
       <img 
-        src={project.thumbnail} 
+        src={`${import.meta.env.BASE_URL}${project.thumbnail}`}
         alt={project.title} 
         className="w-full h-48 sm:h-64 object-cover" 
       />
