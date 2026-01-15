@@ -5,11 +5,11 @@ export default function ProjectHeader({ project }) {
       <img 
         src={`${import.meta.env.BASE_URL}${project.thumbnail}`}
         alt={project.title} 
-        className="w-full h-48 sm:h-64 object-cover" 
+        className="w-full h-48 sm:h-120 object-cover" 
       />
 
       {/* Gradient overlay voor leesbaarheid */}
-      <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent" />
+      <div className="absolute inset-0 bg-linear-to-t from-black/80 to-transparent" />
 
       {/* Text overlay */}
       <div className="absolute bottom-4 left-4">
