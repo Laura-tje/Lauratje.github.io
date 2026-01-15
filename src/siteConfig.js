@@ -6,10 +6,10 @@ export const siteConfig = {
   cv: "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
 
   socials: {
-    email: "jane.doe@example.com",
-    github: "https://github.com/",
-    linkedin: "https://linkedin.com/",
-    itch: "https://itch.io/",
+    email: "lauradelissen@hotmail.com",
+    github: "https://github.com/Laura-tje",
+    linkedin: "https://www.linkedin.com/in/laura-delissen/",
+    itch: "https://laura-tje.itch.io"
   },
 
   aboutLong: `

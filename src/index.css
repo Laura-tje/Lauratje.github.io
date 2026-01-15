@@ -2,28 +2,33 @@
 @import "tailwindcss";
 
 :root {
-  --bg: linear-gradient(0deg, #000000, #004b52);
-  --surface: linear-gradient(135deg, #ff0000, #000000);
-  --text: #ffffff;
-  --muted: #f6f6f6;
-  --accent: #ffffff;
-  --accent-hover: #c300ffaa;
-  --accent-text: #c8bc1b;
-  --bordercolor: #ffffff95;
+  --bg: #121614;          /* dieper groen-grijs, geen zwart */
+  --surface: #1b221e;     /* subtiel contrast met bg */
+  --text: #eef2ed;
+  --muted: #9aa79f;
 
-  --overlay: rgba(187, 66, 224, 0.6);
-  --overlay-hover: rgba(0, 0, 0, 0.8);
+  --accent: #9fbea1;      /* iets koeler & cleaner */
+  --accent-hover: #88aa8a;
+  --accent-text: #122016;
+  --bordercolor: #3f5543;
+
+  --overlay: rgba(159, 190, 161, 0.26);
+  --overlay-hover: rgba(190, 220, 195, 0.48);
 
   --radius-sm: 0.375rem;
   --radius-md: 0.75rem;
   --radius-lg: 1rem;
-  
-  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
-  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
-  --shadow-lg: 0 10px 30px rgba(251, 146, 60, 0.1);
-  
-  --font-main: 'Arial';
+
+  --shadow-sm: 0 2px 6px rgba(0, 0, 0, 0.35);
+  --shadow-md: 0 8px 22px rgba(0, 0, 0, 0.45);
+  --shadow-lg: 0 18px 40px rgba(159, 190, 161, 0.18);
+
+  --font-main: "Roboto", sans-serif;
 }
+
+
+
+
 
 body {
   background: var(--bg);
@@ -41,9 +46,9 @@ body {
   display: inline-block;
   font-size: 0.75rem;
   padding: 0.375rem 0.75rem;
-  background: rgba(251, 146, 60, 0.1);
+  background: rgba(108, 60, 251, 0.1);
   color: var(--accent);
-  border: 1px solid rgba(251, 146, 60, 0.2);
+  border: 1px solid rgba(21, 0, 255, 0.428);
   border-radius: 999px;
   font-weight: 500;
 }
