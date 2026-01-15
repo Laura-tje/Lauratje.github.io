@@ -1,21 +1,17 @@
 import { Outlet } from "react-router-dom";
-import Header from "./components/Header.jsx";
-import Footer from "./components/Footer.jsx";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
     <div className="min-h-screen flex flex-col bg-(--bg) text-(--text)">
       <Header />
-      <header >
-      </header>
 
-      <Outlet />
       <main className="flex-1 container mx-auto">
+        <Outlet />
       </main>
 
       <Footer />
-      <footer className="bg-(--surface) p-4 border-t border-(--bordercolor)">
-      </footer>
     </div>
   );
 }
